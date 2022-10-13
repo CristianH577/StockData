@@ -1,0 +1,50 @@
+Nombre: bd_stock
+
+Tabla: usuarios
+Columnas:
+	id_usuario
+	nombre_usuario
+	telefono
+	username
+	password
+	nivel
+	estatus
+	registro
+
+Tabla: productos
+Columnas:
+	id_producto
+	nombre_producto
+	medida
+	material
+	marca
+	ubicacion
+	comentario
+	ult_actualizacion
+	stock	float
+	unidad_stock
+	precio_venta	double
+	unidad_venta
+	precio_compra	double
+	unidad_compra
+	ult_actualizacion_venta
+	ult_actualizacion_compra
+	direccion_imagen
+
+Tabla: remitos
+Columnas:
+	id_remito
+	nombre_cliente
+	direccion_cliente
+	envio
+	id_productos
+	cantidades
+	total
+	comentario_venta
+	cargado_por
+	comentario_entrega
+	tomado_por
+	estado
+	checks
+	fecha_creado
+	fecha_actualizacion
